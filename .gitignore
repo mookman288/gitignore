@@ -1,0 +1,94 @@
+# Files / Folders
+.cache
+.cache/
+.CVS
+.env
+.idea
+.project
+.project/
+.settings
+.svn
+.tmproj
+.well-known/
+*.ini
+*.log
+*.phpunit*
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.sass-cache
+*.psd
+*.sublime-project
+*.sublime-workspace
+
+# OS / Network
+[Tt]humbs.db*
+[Dd]esktop.ini
+$RECYCLE.BIN/
+@Recycle/
+@Recently-Snapshot/
+.DS_Store
+._*
+.Trashes
+
+# Composer
+vendor/
+composer.phar
+
+# NPM
+node_modules/
+
+# PHP
+private/cache
+
+# Gulp
+public/css/**/*
+public/js/**/*
+public/font*/**/*
+public/upload*/**/*
+public/image*/**/*
+
+# Laravel
+/.vagrant
+public/storage
+public/hot
+app/storage
+storage/*.key
+Homestead.yaml
+Homestead.json
+
+# Symfony
+app/cache/**/*
+app/logs/**/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+app/spool
+app/config/parameters.yml
+app/config/parameters.ini
+app/bootstrap.php.cache
+bin/*
+!bin/console
+!bin/symfony_requirements
+var/cache/**/*
+var/logs/**/*
+var/sessions/**/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+var/bootstrap.php.cache
+web/bundle*/
+web/upload*/
+**/Entity/*~
+
+# WordPress
+public/wp/
+public/wp-content/plugins/*
+public/wp-content/themes/*
+public/wp-content/mu-themes/*
+public/wp-content/uploads/*
+public/local-config.php
+public/sitemap.xml*
